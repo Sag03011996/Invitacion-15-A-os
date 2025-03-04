@@ -36,7 +36,7 @@ const BirthdayInvitation = () => {
       <div className="card text-center" id="birthday-invitation">  
         <div className="position-relative">  
           <img  
-            src="src/img/d5ad3d0c-7f12-459d-a1f6-ad8c195b207e.jpeg"  
+            src="src/components/img/d5ad3d0c-7f12-459d-a1f6-ad8c195b207e.jpeg"  
             className="card-img-top"  
             alt="Invitación"  
             style={{ height: '50vh', objectFit: 'cover' }}  
@@ -56,7 +56,7 @@ const BirthdayInvitation = () => {
               backgroundColor: 'rgba(0, 0, 0, 0.6)', // Fondo semitransparente  
               borderRadius: '5px'  
             }}>  
-            Mis Quince Años <br /> Mariana  
+            Mis Quince Años <br /> Mariana ♥ 
           </div>  
           {/* Reproductor de música */}  
           <audio  
@@ -67,7 +67,7 @@ const BirthdayInvitation = () => {
             style={{ position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)' }}  
           >  
             <source  
-              src="src/music/christina perri a thousand years official music video [rtOvBOTyX00].mp3"  
+              src="src/components/music/christina perri a thousand years official music video [rtOvBOTyX00].mp3"  
               type="audio/mpeg"  
             />  
             Tu navegador no soporta el elemento de audio.  
@@ -102,13 +102,13 @@ const BirthdayInvitation = () => {
           {/* Carrusel de fotos */}  
           <Carousel>  
             <Carousel.Item>  
-              <img className="d-block w-100" src="src/img/c8a6297d-cfc8-4ba5-9783-48cf01f06f1f.jpeg" alt="Foto 1" />  
+              <img className="d-block w-100" src="src/components/img/c8a6297d-cfc8-4ba5-9783-48cf01f06f1f.jpeg" alt="Foto 1" />  
             </Carousel.Item>  
             <Carousel.Item>  
-              <img className="d-block w-100" src="src/img/2343b524-58a7-4d6a-88b9-0b28d7bbf700.jpeg" alt="Foto 2" />  
+              <img className="d-block w-100" src="src/components/img/2343b524-58a7-4d6a-88b9-0b28d7bbf700.jpeg" alt="Foto 2" />  
             </Carousel.Item>  
             <Carousel.Item>  
-              <img className="d-block w-100" src="src/img/c943e4b5-59e9-41af-9b6e-018be5e478c5.jpeg" alt="Foto 3" />  
+              <img className="d-block w-100" src="src/components/img/c943e4b5-59e9-41af-9b6e-018be5e478c5.jpeg" alt="Foto 3" />  
             </Carousel.Item>  
           </Carousel>  
 
@@ -159,7 +159,7 @@ const BirthdayInvitation = () => {
         {/* Foto de despedida con mensaje */}  
         <div className="position-relative">  
           <img  
-            src="src/img/1a31c2ee-77e2-41ad-b8d6-137a8857ab18.jpeg"  
+            src="src/components/img/1a31c2ee-77e2-41ad-b8d6-137a8857ab18.jpeg"  
             className="card-img-bottom"  
             alt="Despedida"  
             style={{ width: '100%', objectFit: 'cover' }}  
